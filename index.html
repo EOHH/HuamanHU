@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <header class="head">
+      <center><h1>PROGRAMMING LANGUAJES</h1></center>
+    </header>
+    <section>
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <img src="img/Iam.jpg" alt="" style="width: 180px;">
+          <a class="navbar-brand" href="index.html">LANGUAJES</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="pg01.html">HTML</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="pg02.html">JAVASCRIPT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="pg03.html">PYTHON</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="Pagina01.html">Action</a></li>
+                  <li><a class="dropdown-item" href="Pagina01.html">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <section class="sect2">
+        <h2>What is a programming language?</h2>
+        <p>
+          It is a formal language that, by means of a series of instructions, allows a programmer to write a set of orders, consecutive actions, data and algorithms in order to create programs that control the physical and logical behavior of a machine.
+          Through this language, the programmer and the machine communicate, allowing precise specification of aspects such as:
+          <ul>
+            <li>What data should a specific software operate?</li>
+            <li>How should that data be stored or transmitted?</li>
+            <li>The actions to be taken by the software depending on changing circumstances?</li>
+          </ul>
+        </p>
+      </section>
+    </section>
+    <section>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/brrr1.jpg" class="d-block w-100" alt="imagen 1">
+          </div>
+          <div class="carousel-item">
+            <img src="img/brrr2.jpg" class="d-block w-100" alt="imagen 2">
+          </div>
+          <div class="carousel-item">
+            <img src="img/brrr3.jpg" class="d-block w-100" alt="imagen 3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>     
+    </section>
+    <article class="artipi">
+      <h2>Registrarse:</h2>
+      <main>
+        <form action="">
+            <label for="nombre">
+                <span>¿Cuál es tu nombre?</span>
+                <input type="text" name="nombre" id="nombre" autocomplete="name" required>
+            </label>
+            <label for="correo">
+                <span>¿Cuál es tu correo?</span>
+                <input type="email" name="correo" id="correo" autocomplete="email" required>
+            </label>
+            <label for="pais">
+                <span>¿En cuál país vives?</span>
+                <input type="text" name="pais" id="pais" autocomplete="country" required>
+            </label>
+            <label for="cp">
+                <span>¿Cuál es tu código postal?</span>
+                <input type="text" name="cp" id="cp" autocomplete="postal-code" required>
+            </label>
+            <div>
+              <input type="submit">
+            </div>           
+        </form>
+    </main>
+    </article>
+  </body>
+</html>
